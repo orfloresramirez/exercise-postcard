@@ -1,0 +1,61 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 340px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 10px;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-right {
+	padding: 10px;
+}
+
+.body-right input {
+	color: gray;
+	font-family: "Courier New";
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: gray;
+	padding: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	background-color: gray;
+	font-weight: bold;
+	font-family: Georgia;
+	padding: 10px;
+}
